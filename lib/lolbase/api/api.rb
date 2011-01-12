@@ -3,7 +3,7 @@ module Lolbase
     class API
       attr_accessor :character_name, :region, :caching, :cache_timeout, :debug
 
-      #include Character
+      include Client
 
       def initialize(options = {})
         @character_name = options[:character_name]

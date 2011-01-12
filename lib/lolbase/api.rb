@@ -1,6 +1,7 @@
 module Lolbase
   module API
-    autoload :API, 'lolbase/api/api'
+    autoload :API,    'lolbase/api/api'
+    autoload :Client, 'lolbase/api/client'
 
     # Returns a new instance of Lolbase::API::API
     def self.new(options = {})
