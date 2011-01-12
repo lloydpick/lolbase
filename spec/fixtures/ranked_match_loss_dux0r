@@ -1,0 +1,1649 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Jan 2011 17:50:41 GMT
+Server: Apache/2.2.14 (Ubuntu)
+X-Powered-By: PHP/5.3.2-1ubuntu4.5
+Set-Cookie: PHPSESSID=s9r6in8f18md3irt8k7ckcjla5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+<?xml version="1.0" encoding="utf-8"?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+		<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+		<head>
+			<title>www.lolbase.net | League of Legends Match #EUr20418060</title>
+			<meta http-equiv="content-language" content="en" />
+			<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+			<meta http-equiv="Content-Style-Type" content="text/css" />
+			<meta name="revisit-after" content="1 days" />
+            <meta name="robots" content="index, follow" />
+<meta name="keywords" content="League of Legends, League of Legends Statistics, Match Statistics, Talent Calculator, Masteries Calculator, Game Statistics, Player Statistics, Ranking, Mastery Calculator, Player Stats, Stats, League of Legends Stats, Match Stats, LoL Stats" />
+<meta name="description" content="A League of Legends database with match and player statistics. Search for players or matches and see the full statistics." />
+<link rel="stylesheet" href="http://www.lolbase.net/stylesheets/common.css" type="text/css" />
+<link rel="stylesheet" href="http://www.lolbase.net/stylesheets/default.css" type="text/css" />
+<link rel="stylesheet" href="http://www.lolbase.net/stylesheets/tooltip.css" type="text/css" />
+<link rel="stylesheet" href="http://www.lolbase.net/stylesheets/match.css" type="text/css" />
+<script src="http://www.lolbase.net/javascripts/common.js" type="text/javascript"></script>
+<script src="http://www.lolbase.net/javascripts/items.js" type="text/javascript"></script>
+<script src="http://www.lolbase.net/javascripts/mootools.js" type="text/javascript"></script>
+<link href="http://www.lolbase.net/favicon.ico" rel="shortcut icon" type="image/x-icon" /><meta name="google-site-verification" content="0-RLJp7mfOdT774BbRtCPuO6KZCcXftpblnF7oUUNUo" /><meta name="google-site-verification" content="79ugXzOqYx6Da7ZIyJK6VscF6Z6ipV2HvxodlqRQNoI" /><link rel="apple-touch-icon" href="http://www.lolbase.net/images/other/lolbase-iphone.png" />
+		</head>
+		<body><div id="topmenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.leagueoflegends.com">
+    			US LoL    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://eu.leagueoflegends.com">
+    			EU LoL    		</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/forums/viewtopic.php?f=7&t=180">
+    			<span style="color: #5F5FFF;">Large update for LoLBase.net incoming</span>    		</a>
+    		    	</li>
+    	</ul>
+</div>
+<div id="wrapper">
+	<div id="header">
+		<div id="buttons">
+			<a href="http://www.lolbase.net/upload"><img src="http://www.lolbase.net/images/buttons/button-upload.png" alt="Upload Button" height="40" width="150" /></a>
+		</div>
+		<!-- 
+		<div id="login">
+						<form method="post" action="http://www.lolbase.net/login">
+				<table>
+					<tr>
+						<td><label>Username</label></td>
+						<td><input class="text" type="text" name="username" /></td>
+						<td><label>Password</label></td>
+						<td><input class="text" type="password" name="password" /></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="http://www.lolbase.net/register">Register</a>
+						</td>
+						<td colspan="2" class="center">
+							<label>Stay signed in</label>
+							<span><input type="checkbox" name="keepSignedIn" /></span>
+						</td>
+						<td class="right">
+							<input class="submit" type="submit" value="Login" />
+						</td>
+					</tr>
+				</table>
+			</form>
+					</div>
+		 -->
+        <div id="logo">
+			<a href="http://www.lolbase.net/"><img alt="LoLBase.net Logo" src="http://www.lolbase.net/images/layout/logo.png" width="300" height="100" /></a>
+		</div>
+		<div id="mainmenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.lolbase.net/">
+    			Home    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/downloads">
+    			Downloads    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/champions" class="active" >
+    			Database    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/signatures">
+    			Tools    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/forums">
+    			Forums    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/faq">
+    			FAQ    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/contact">
+    			Contact Us    		</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/links">
+    			Links    		</a>
+    		    	</li>
+    	</ul>
+</div>		<div id="sub-nav">
+            			<div id="search-box">
+				<script type="text/javascript">
+					function clearMe(obj) {
+						if (obj.value == obj.title) {
+							obj.value = '';
+                            obj.style.color = '#000000';
+						} else if (obj.value == '') {
+							obj.value = obj.title;
+                            obj.style.color = '#7F7F7F';
+						}
+					}
+				</script>
+				<form method="post" action="http://www.lolbase.net/search">
+                <div>
+                    <span><select id="server" name="server">
+                        <!--<option value="UN">Both</option>-->
+                        <option value="EU" selected="selected">EU</option>
+                        <option value="US">US</option>
+                    </select></span>
+					<span><input class="text" type="text" name="keyword" title="Type in a player name..." value="Type in a player name..." onfocus="clearMe(this)" onblur="clearMe(this)" style="color: #7F7F7F;" /></span>
+					<span><input class="submit" type="submit" value="Search" /></span>
+                </div>
+				</form>
+			</div>
+			<div id="submenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.lolbase.net/players">
+    			Players    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/champions">
+    			Champions    		</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/lists">
+    			Lists    		</a>
+    		    	</li>
+    	</ul>
+</div>
+		</div>
+	</div>
+	<div id="content"><script type="text/javascript">
+	window.addEvent('domready', function(){
+		/* Tips 1 */
+		var Tips1 = new Tips($$('.Tips1'), {
+			className: 'tooltip-small'
+		});
+
+		var Tips2 = new Tips($$('.Tips2'), {
+			className: 'tooltip-line-small'
+		});
+        
+        var Tips3 = new Tips($$('.Tips3'), {
+            className: 'tooltip-large'
+        });
+	});
+</script>
+<div class="box-left">
+<h1 class="style-1">League of Legends Match #EUr20418060</h1>
+<div class="cont">
+	<div class="match-header">
+		<span>Server: <img src="http://www.lolbase.net/images/icons/server-eu-18x18.png" alt="EU Server" width="18" height="18" title="EU Server" /></span>
+		<span class="green" style="margin-left: 16px;">Type: RANKED_SOLO_5x5</span>
+		<span style="margin-left: 16px;">Summoner's Rift (Winter) (5v5) - 2010-07-15 18:29:06</span>
+		<span class="yellow" style="margin-left: 16px;">Duration: 19 minutes</span>
+	</div>
+	<div class="match-overview">
+		<table>
+			<thead>
+				<tr>
+					<th style="width: 40px;"></th>
+					<th style="width: 50px;"></th>
+					<th class="yellow" style="text-align: left; width: 120px;">Player</th>
+					<th class="yellow" style="text-align: center;"><span title="ELO rating::Before the match and the change" class="Tips1">ELO</span></th>
+					<th style="width: 40px;"><img title="Summoner Level" src="http://www.lolbase.net/images/icons/player.png" alt="Summoner Level" height="20" class="Tips2" /></th>
+					<th class="grey" style="150px;">
+						<img title="Kills" src="http://www.lolbase.net/images/icons/kills.png" alt="Kills" height="18" class="Tips2" /> /
+						<img title="Deaths" src="http://www.lolbase.net/images/icons/deaths.png" alt="Deaths" height="18" class="Tips2" /> /
+						<img title="Assists" src="http://www.lolbase.net/images/icons/assists.png" alt="Assists" height="18" class="Tips2" />
+					</th>
+					<th style="width: 60px;"><img title="Minions Slain" src="http://www.lolbase.net/images/icons/minions.png" alt="Minions Slain" height="20" class="Tips2" /></th>
+					<th style="width: 40px;"><img title="Turrets Destroyed" src="http://www.lolbase.net/images/icons/buildings.png" alt="Turrets Destroyed" height="24" class="Tips2" /></th>
+					<th style="width: 232px;"><img title="Items Bought" src="http://www.lolbase.net/images/icons/items-header.png" alt="Items Bought" height="22" class="Tips2" /></th>
+					<th style="width: 70px;"><img title="Summoner Spells" src="http://www.lolbase.net/images/icons/icon-info.png" alt="Summoner Spells" height="24" class="Tips2" /></th>
+				</tr>
+			</thead>
+			<tbody>
+								<tr class="row2">
+					<td><button class="player" onclick="displayToggle(this, 'ps3127')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/ChemicalMan.png" alt="Singed" title="Singed::The Mad Chemist" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-one">
+																	<a class="player" href="http://www.lolbase.net/eu/matga">matga</a><br />
+						<em>Singed</em>
+										</td>
+					<td>
+                        1233<br /><em>(+32)</em>					</td>
+					<td class="green">30</td>
+					<td class="grey">
+						<span class="yellow">3</span> /
+						<span class="red">3</span> /
+						<span class="white">4</span>
+					</td>
+					<td class="purple">81</td>
+					<td class="blue">3</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3010_Catalyst_the_Protector_24.png" alt="Catalyst the Protector" title="Catalyst the Protector::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3047_Phase_Striders_24.png" alt="Ninja Tabi" title="Ninja Tabi::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3043_Pablitos_Wand_of_Humility_24.png" alt="Blasting Wand" title="Blasting Wand::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerHeal_24.png" alt="Heal" title="Heal" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerHaste_24.png" alt="Ghost" title="Ghost" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps3127" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>4</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>81</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>3</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>0</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>56645</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>12389</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>44255</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>2</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>10943</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>8208</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>2138</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>2544</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>5810</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>1.57 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row1">
+					<td><button class="player" onclick="displayToggle(this, 'ps206102')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/Annie.png" alt="Annie" title="Annie::The Dark Child" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-one">
+																	<a class="player" href="http://www.lolbase.net/eu/SalutCayKevin">SalutCayKevin</a><br />
+						<em>Annie</em>
+										</td>
+					<td>
+                        1232<br /><em>(+32)</em>					</td>
+					<td class="green">30</td>
+					<td class="grey">
+						<span class="yellow">9</span> /
+						<span class="red">0</span> /
+						<span class="white">6</span>
+					</td>
+					<td class="purple">71</td>
+					<td class="blue">1</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3010_Catalyst_the_Protector_24.png" alt="Catalyst the Protector" title="Catalyst the Protector::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3020_Flamewalkers_24.png" alt="Sorcerer's Shoes" title="Sorcerer's Shoes::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3041_Mejais_Soulstealer_24.png" alt="Mejai's Soulstealer" title="Mejai's Soulstealer::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3043_Pablitos_Wand_of_Humility_24.png" alt="Blasting Wand" title="Blasting Wand::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1052_Amplifying_Scepter_24.png" alt="Amplifying Tome" title="Amplifying Tome::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerFlash_24.png" alt="Flash" title="Flash" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps206102" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>9</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>6</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>71</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>13</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>54310</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>15149</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>38931</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>301</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>9</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>2</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>6681</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>6112</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>342</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>2040</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>7620</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>0 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row2">
+					<td><button class="player" onclick="displayToggle(this, 'ps216810')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/GreenTerror.png" alt="Cho'Gath" title="Cho'Gath::The Black Terror" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-one">
+																	<a class="player" href="http://www.lolbase.net/eu/enjoistick">enjoistick</a><br />
+						<em>Cho'Gath</em>
+										</td>
+					<td>
+                        1234<br /><em>(+32)</em>					</td>
+					<td class="green">30</td>
+					<td class="grey">
+						<span class="yellow">3</span> /
+						<span class="red">1</span> /
+						<span class="white">3</span>
+					</td>
+					<td class="purple">58</td>
+					<td class="blue">1</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/033_Buckler_24.png" alt="Doran's Shield" title="Doran's Shield::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3010_Catalyst_the_Protector_24.png" alt="Catalyst the Protector" title="Catalyst the Protector::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3009_Boots_of_Teleportation_24.png" alt="Boots of Swiftness" title="Boots of Swiftness::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1031_Chain_Vest_24.png" alt="Chain Vest" title="Chain Vest::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1029_Cloth_Armour_24.png" alt="Cloth Armor" title="Cloth Armor::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1033_Elementium_Threaded_Cloak_24.png" alt="Null-Magic Mantle" title="Null-Magic Mantle::" height="24" width="24"  class="Tips3" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerHaste_24.png" alt="Ghost" title="Ghost" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerBoost_24.png" alt="Cleanse" title="Cleanse" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps216810" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>1</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>3</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>58</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>2</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>32760</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>14573</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>15765</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>217</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>9762</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>8924</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>838</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>2427</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>5038</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>0 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row1">
+					<td><button class="player" onclick="displayToggle(this, 'ps19077711')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/Janna.png" alt="Janna" title="Janna::The Storm's Fury" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-one">
+																	<a class="player" href="http://www.lolbase.net/eu/Joshan">Joshan</a><br />
+						<em>Janna</em>
+										</td>
+					<td>
+                        1233<br /><em>(+32)</em>					</td>
+					<td class="green">30</td>
+					<td class="grey">
+						<span class="yellow">1</span> /
+						<span class="red">0</span> /
+						<span class="white">7</span>
+					</td>
+					<td class="purple">64</td>
+					<td class="blue">0</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/165_Harmony_Ring_24.png" alt="Doran's Ring" title="Doran's Ring::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3009_Boots_of_Teleportation_24.png" alt="Boots of Swiftness" title="Boots of Swiftness::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3037_Mana_Manipulator_24.png" alt="Mana Manipulator" title="Mana Manipulator::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/2003_Regeneration_Potion_24.png" alt="Health Potion" title="Health Potion::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3041_Mejais_Soulstealer_24.png" alt="Mejai's Soulstealer" title="Mejai's Soulstealer::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerMana_24.png" alt="Clarity" title="Clarity" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerBoost_24.png" alt="Cleanse" title="Cleanse" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps19077711" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>1</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>7</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>64</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>1</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>0</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>54808</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>12259</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>42549</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>3178</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>2431</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>610</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>3684</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>5159</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>0 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row2">
+					<td><button class="player" onclick="displayToggle(this, 'ps19244470')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/DarkChampion.png" alt="Tryndamere" title="Tryndamere::The Barbarian King" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-one">
+																	<a class="player" href="http://www.lolbase.net/eu/BruceGi">BruceGi</a><br />
+						<em>Tryndamere</em>
+										</td>
+					<td>
+                        1233<br /><em>(+32)</em>					</td>
+					<td class="green">22</td>
+					<td class="grey">
+						<span class="yellow">2</span> /
+						<span class="red">1</span> /
+						<span class="white">1</span>
+					</td>
+					<td class="purple">54</td>
+					<td class="blue">3</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3047_Phase_Striders_24.png" alt="Ninja Tabi" title="Ninja Tabi::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1038_BF_Sword_24.png" alt="B. F. Sword" title="B. F. Sword::" height="24" width="24"  class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerExhaust_24.png" alt="Exhaust" title="Exhaust" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps19244470" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>2</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>1</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>1</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>54</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>1</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>3</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>0</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>39531</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>32002</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>6929</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>336</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>2</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>7374</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>6321</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>863</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>3761</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>4655</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>0.45 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr style="padding-bottom: 16px;">
+					<td colspan="3" style="text-align: center;">
+						<span class="yellow">Winning Team</span>					</td>
+                    <td><em title="Average ELO rating::Before the match" class="Tips3">1233.0</em></td>
+					<td><em title="Average summoner level::" class="Tips3">28.4</em></td>
+					<td><em><span title="Total kills" class="Tips2">18</span> / <span title="Total deaths" class="Tips2">5</span> / <span title="Total assists" class="Tips2">21</span></em></td>
+					<td><em title="Total minions slain::" class="Tips3">328</em></td>
+					<td><em title="Total turrets destroyed::" class="Tips3">8</em></td>
+					<td colspan="2" class="left">
+												<em>Kill-Death ratio: <span class="green">3.600</span></em>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="10">
+						<div class="border"></div>
+					</td>
+				</tr>
+								<tr class="row2">
+					<td><button class="player" onclick="displayToggle(this, 'ps19265646')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/Bowmaster.png" alt="Ashe" title="Ashe::The Frost Archer" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-two">
+																	<a class="player" href="http://www.lolbase.net/eu/Dux0r">Dux0r</a><br />
+						<em>Ashe</em>
+										</td>
+					<td>
+                        1233<br /><em>(-32)</em>					</td>
+					<td class="green">26</td>
+					<td class="grey">
+						<span class="yellow">0</span> /
+						<span class="red">3</span> /
+						<span class="white">1</span>
+					</td>
+					<td class="purple">69</td>
+					<td class="blue">0</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3062_Soul_Pendant_24.png" alt="Philosopher's Stone" title="Philosopher's Stone::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3009_Boots_of_Teleportation_24.png" alt="Boots of Swiftness" title="Boots of Swiftness::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1043_Steel_Stiletto_24.png" alt="Recurve Bow" title="Recurve Bow::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1033_Elementium_Threaded_Cloak_24.png" alt="Null-Magic Mantle" title="Null-Magic Mantle::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerTeleport_24.png" alt="Teleport" title="Teleport" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps19265646" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>1</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>69</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>0</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>19067</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>18382</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>527</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>192</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>6340</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>849</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>5490</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>3966</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>1.88 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row1">
+					<td><button class="player" onclick="displayToggle(this, 'ps19253404')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/XenZhao.png" alt="Xin Zhao" title="Xin Zhao::The Seneschal of Demacia" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-two">
+																	<a class="player" href="http://www.lolbase.net/eu/Fortuna1895">Fortuna1895</a><br />
+						<em>Xin Zhao</em>
+										</td>
+					<td>
+                        1201<br /><em>(-32)</em>					</td>
+					<td class="green">26</td>
+					<td class="grey">
+						<span class="yellow">0</span> /
+						<span class="red">3</span> /
+						<span class="white">1</span>
+					</td>
+					<td class="purple">23</td>
+					<td class="blue">0</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3009_Boots_of_Teleportation_24.png" alt="Boots of Swiftness" title="Boots of Swiftness::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1043_Steel_Stiletto_24.png" alt="Recurve Bow" title="Recurve Bow::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerExhaust_24.png" alt="Exhaust" title="Exhaust" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps19253404" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>1</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>23</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>4</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>18262</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>12093</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>5777</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>189</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>8259</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>2612</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>5579</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>1433</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>2468</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>1.67 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row2">
+					<td><button class="player" onclick="displayToggle(this, 'ps19119722')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/Pantheon.png" alt="Pantheon" title="Pantheon::The Artisan of War" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-two">
+																	<a class="player" href="http://www.lolbase.net/eu/Vlad5">Vlad5</a><br />
+						<em>Pantheon</em>
+										</td>
+					<td>
+                        1233<br /><em>(-32)</em>					</td>
+					<td class="green">30</td>
+					<td class="grey">
+						<span class="yellow">3</span> /
+						<span class="red">5</span> /
+						<span class="white">1</span>
+					</td>
+					<td class="purple">42</td>
+					<td class="blue">0</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3006_Berserkers_Greaves_24.png" alt="Berserker's Greaves" title="Berserker's Greaves::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3028_Harmony_Ring_24.png" alt="Chalice of Harmony" title="Chalice of Harmony::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1038_BF_Sword_24.png" alt="B. F. Sword" title="B. F. Sword::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerExhaust_24.png" alt="Exhaust" title="Exhaust" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps19119722" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>3</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>5</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>1</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>42</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>0</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>26741</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>21919</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>4378</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>150</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>2</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>12233</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>4086</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>7427</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>190</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>3869</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>2.42 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row1">
+					<td><button class="player" onclick="displayToggle(this, 'ps194488')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/Katarina.png" alt="Katarina" title="Katarina::The Sinister Blade" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-two">
+																	<a class="player" href="http://www.lolbase.net/eu/Ellie-cal-Dabran">Ellie cal Dabran</a><br />
+						<em>Katarina</em>
+										</td>
+					<td>
+                        1225<br /><em>(-32)</em>					</td>
+					<td class="green">30</td>
+					<td class="grey">
+						<span class="yellow">2</span> /
+						<span class="red">5</span> /
+						<span class="white">1</span>
+					</td>
+					<td class="purple">16</td>
+					<td class="blue">0</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/3006_Berserkers_Greaves_24.png" alt="Berserker's Greaves" title="Berserker's Greaves::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3054_Scepter_of_Death_24.png" alt="Vampiric Scepter" title="Vampiric Scepter::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/1038_BF_Sword_24.png" alt="B. F. Sword" title="B. F. Sword::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerHeal_24.png" alt="Heal" title="Heal" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps194488" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>2</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>5</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>1</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>16</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>0</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>7926</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>3345</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>4425</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>153</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>1</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>6033</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>1747</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>3705</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>941</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>3286</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>2.35 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr class="row2">
+					<td><button class="player" onclick="displayToggle(this, 'ps19420807')">+</button></td>
+					<td>
+						<img src="http://www.lolbase.net/images/champions/icons/small/Mordekaiser.png" alt="Mordekaiser" title="Mordekaiser::The Master of Metal" width="50" height="50" class="Tips3" />
+					</td>
+					<td class="left team-two">
+																	<a class="player" href="http://www.lolbase.net/eu/wasd-i-cant-move">wasd i cant move</a><br />
+						<em>Mordekaiser</em>
+										</td>
+					<td>
+                        1169<br /><em>(-32)</em>					</td>
+					<td class="green">23</td>
+					<td class="grey">
+						<span class="yellow">0</span> /
+						<span class="red">2</span> /
+						<span class="white">0</span>
+					</td>
+					<td class="purple">24</td>
+					<td class="blue">0</td>
+					<td class="items">
+						<img src="http://www.lolbase.net/images/items/small/1007_Regrowth_Pendant_24.png" alt="Regrowth Pendant" title="Regrowth Pendant::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/3044_Phage_24.png" alt="Phage" title="Phage::" height="24" width="24" class="Tips3" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> <img src="http://www.lolbase.net/images/items/small/EmptyIcon_24.png" alt="Empty" title="Empty" height="24" width="24" class="Tips2" /> 					</td>
+					<td>
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerDot_24.png" alt="Ignite" title="Ignite" height="24" width="24" style="margin-right: 6px;" class="Tips2" />
+												<img src="http://www.lolbase.net/images/spells/small/Spell_SummonerHaste_24.png" alt="Ghost" title="Ghost" height="24" width="24" class="Tips2" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="10">
+						<div id="ps19420807" class="player-stats" style="display: none;">
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>Kills:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Deaths:</td>
+												<th>2</th>
+											</tr>
+											<tr>
+												<td>Assists:</td>
+												<th>0</th>
+											</tr>
+                                            
+											<tr>
+												<td>Minions slain:</td>
+												<th>24</th>
+											</tr>
+											<tr>
+												<td>Barracks destroyed:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Turrets destroyed:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Neutral monsters slain:</td>
+												<th>3</th>
+											</tr>
+										</table>
+									</td>
+									<td>
+										<table class="left">
+                                            <tr>
+												<td>Damage dealt:</td>
+												<th>19240</th>
+											</tr>
+                                            <tr>
+												<td>Physical damage dealt:</td>
+												<th>3237</th>
+											</tr>
+											<tr>
+												<td>Magic damage dealt:</td>
+												<th>16002</th>
+											</tr>
+											<tr>
+												<td>Largest critical strike:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+												<td>Largest killing spree:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Largest multi kill:</td>
+												<th>0</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td>Damage taken:</td>
+												<th>3998</th>
+											</tr>
+											<tr>
+												<td>Physical damage taken:</td>
+												<th>858</th>
+											</tr>
+											<tr>
+												<td>Magic damage taken:</td>
+												<th>2829</th>
+											</tr>
+											<tr>
+												<td>Health restored:</td>
+												<th>0</th>
+											</tr>
+											<tr>
+												<td>Gold:</td>
+												<th>2388</th>
+											</tr>
+											<tr>
+												<td>Time spent dead:</td>
+												<th>1.05 min</th>
+											</tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <th>&nbsp;</th>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+								<tr style="padding-bottom: 16px;">
+					<td colspan="3" style="text-align: center;">
+						<span class="red">Losing Team</span>					</td>
+                    <td><em title="Average ELO rating::Before the match" class="Tips3">1212.2</em></td>
+					<td><em title="Average summoner level::" class="Tips3">27.0</em></td>
+					<td><em><span title="Total kills" class="Tips2">5</span> / <span title="Total deaths" class="Tips2">18</span> / <span title="Total assists" class="Tips2">4</span></em></td>
+					<td><em title="Total minions slain::" class="Tips3">174</em></td>
+					<td><em title="Total turrets destroyed::" class="Tips3">0</em></td>
+					<td colspan="2" class="left">
+												<em>Kill-Death ratio: <span class="red">0.278</span></em>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+                    <div style="margin-top: 24px;">
+            <span style="font-weight: bold; font-size: 12px;">Banned Champions:</span><br />
+            <br />
+                                <img src="http://www.lolbase.net/images/champions/icons/small/Heimerdinger.png" alt="Heimerdinger" title="Heimerdinger" width="50" height="50" style="float: left; margin: 0 16px 16px 0;" class="Tips2" />
+                                        <img src="http://www.lolbase.net/images/champions/icons/small/Ezreal.png" alt="Ezreal" title="Ezreal" width="50" height="50" style="float: left; margin: 0 16px 16px 0;" class="Tips2" />
+                                        <img src="http://www.lolbase.net/images/champions/icons/small/Shen.png" alt="Shen" title="Shen" width="50" height="50" style="float: left; margin: 0 16px 16px 0;" class="Tips2" />
+                                        <img src="http://www.lolbase.net/images/champions/icons/small/Jester.png" alt="Shaco" title="Shaco" width="50" height="50" style="float: left; margin: 0 16px 16px 0;" class="Tips2" />
+                                </div>
+            <div style="clear: both;"></div>
+            	</div>
+</div>
+</div>
+		<div class="clear-both"></div>
+	</div>
+	<div id="footer">
+		<div id="botmenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.lolbase.net/">Home</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/downloads">Downloads</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/database">Database</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/tools">Tools</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/forums">Forum</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/faq">FAQ</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/contact">Contact Us</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/links">Links</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/upload">Upload</a>
+    		    	</li>
+    	</ul>
+</div>
+		<div id="partners">
+<!--			<div style="text-align: left; font-size: 10px; color: #666666;"><em>Partners</em></div>-->
+			<div style="margin-bottom: 16px;">
+				<a href="http://www.3lanes.net" title="Tournament Site"><img alt="www.3lanes.net" src="http://www.lolbase.net/images/partners/3lanes-net.jpg" height="60" width="234" title="Tournament Site" /></a>
+				<a href="http://www.lol-game.ru" title="Russian Game Database and Tournaments"><img alt="www.lol-game.ru" src="http://www.lolbase.net/images/partners/lol-game-ru.jpg" height="60" width="234" title="Russian Game Database and Tournaments" /></a>
+				<a href="http://www.lol-tournament.com" title="Tournament Site"><img alt="www.lol-tournament.com" src="http://www.lolbase.net/images/partners/lol-tournament-net.jpg" height="60" width="234" title="Tournament Site" /></a>
+				<a href="http://www.roarchat.net" title="Chat Site"><img alt="www.roarchat.net" src="http://www.lolbase.net/images/partners/eality-roar-de.jpg" height="60" width="234" title="Chat Site" /></a>
+			</div>
+			<div>
+				<a href="http://leagueoflegends.wikia.com" title="League of Legends at Wikia"><img src="http://www.lolbase.net/images/partners/wikia.jpg" alt="leagueoflegends.wikia.com" height="40" width="86" /></a>
+				<a href="http://leaguecraft.pl" title="Polisd centrum League of Legends"><img src="http://www.lolbase.net/images/partners/lc-pl.jpg" alt="www.leaguecraft.pl" height="60" width="234" /></a>
+				<a href="http://www.lol-romania.com" title="Romania League of Legends Community"><img src="http://www.lolbase.net/images/partners/lol-romania-com.jpg" alt="www.lol-romania.com" height="60" width="234" /></a>
+				<a href="http://www.lol-france.fr/forum" title="French League of Legends Community"><img src="http://www.lolbase.net/images/partners/lol-france-fr.jpg" alt="www.lol-france.fr" height="60" width="234" /></a>
+				<a href="http://leagueoflegends.pl" title="Polish League of Legends Community Site"><img src="http://www.lolbase.net/images/partners/lol-pl.jpg" alt="www.leagueoflegends.pl" height="60" width="127" /></a>
+			</div>
+		</div>
+		<div id="copyright">
+			<p>&copy; 2009-2011 www.lolbase.net<br />v2.0</p>
+			<p>Images and graphics are properties of their respective owners. League of Legends © 2009 Riot Games Inc. All rights reserved.<br />
+League of Legends and Riot Games Inc. are registered trademarks of Riot Games Inc.</p>
+		</div>
+		<p>
+                            <img src="http://www.lolbase.net/images/icons/group.png" alt="Users" width="16" height="16" />
+                Users online: <span title="The amount of users who have used any of the LoLBase.net services within the last 5 minutes (updated every minute)">
+                    515                </span>
+                <span title="The same users excluding those who are viewing a signature">
+                    (74)
+                </span>
+                		</p>
+	</div>
+</div>
+
+		</body>
+		</html>

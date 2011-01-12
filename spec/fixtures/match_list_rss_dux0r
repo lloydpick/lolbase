@@ -1,0 +1,55 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Jan 2011 17:50:40 GMT
+Server: Apache/2.2.14 (Ubuntu)
+X-Powered-By: PHP/5.3.2-1ubuntu4.5
+Set-Cookie: PHPSESSID=le82ar184d370pfh19p3eocbd1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 2041
+Content-Type: text/html; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Dux0r (EU) - LoLBase.net</title>
+    <link>http://www.lolbase.net/eu/Dux0r</link>
+    <description>Recent matches for Dux0r (EU) on LoLBase.net</description>
+    <category>Game Statistics</category>
+    <language>en</language>
+    <lastBuildDate>2011-01-11 19:43:04</lastBuildDate>
+    <pubDate>2011-01-11 19:43:04</pubDate>
+    <ttl>360</ttl>
+        <item>
+        <title>Match #71031071</title>
+        <link>http://www.lolbase.net/matches/view/EU71031071</link>
+        <description>Won as Shaco in a normal game - 8 kills, 1 deaths, 8 assists - 28 minutes - 10-01-11 02:15:53</description>
+        <pubDate>2011-01-10 02:15:53</pubDate>
+    </item>
+                <item>
+        <title>Match #71035145</title>
+        <link>http://www.lolbase.net/matches/view/EU71035145</link>
+        <description>Lost as Evelynn in a normal game - 2 kills, 3 deaths, 3 assists - 27 minutes - 10-01-11 02:48:54</description>
+        <pubDate>2011-01-10 02:48:54</pubDate>
+    </item>
+                <item>
+        <title>Match #71038235</title>
+        <link>http://www.lolbase.net/matches/view/EU71038235</link>
+        <description>Won as Karthus in a normal game - 4 kills, 0 deaths, 15 assists - 47 minutes - 10-01-11 03:19:57</description>
+        <pubDate>2011-01-10 03:19:57</pubDate>
+    </item>
+                <item>
+        <title>Match #71617200</title>
+        <link>http://www.lolbase.net/matches/view/EU71617200</link>
+        <description>Won as Udyr in a normal game - 9 kills, 3 deaths, 8 assists - 31 minutes - 11-01-11 19:04:07</description>
+        <pubDate>2011-01-11 19:04:07</pubDate>
+    </item>
+                <item>
+        <title>Match #71639338</title>
+        <link>http://www.lolbase.net/matches/view/EU71639338</link>
+        <description>Lost as Udyr in a normal game - 2 kills, 5 deaths, 9 assists - 43 minutes - 11-01-11 19:43:04</description>
+        <pubDate>2011-01-11 19:43:04</pubDate>
+    </item>
+            </channel>
+</rss>

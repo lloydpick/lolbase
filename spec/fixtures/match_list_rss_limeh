@@ -1,0 +1,55 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Jan 2011 17:50:40 GMT
+Server: Apache/2.2.14 (Ubuntu)
+X-Powered-By: PHP/5.3.2-1ubuntu4.5
+Set-Cookie: PHPSESSID=6713kpal36enn1g0hmi96rub75; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 2045
+Content-Type: text/html; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Limeh (EU) - LoLBase.net</title>
+    <link>http://www.lolbase.net/eu/Limeh</link>
+    <description>Recent matches for Limeh (EU) on LoLBase.net</description>
+    <category>Game Statistics</category>
+    <language>en</language>
+    <lastBuildDate>2011-01-11 23:29:49</lastBuildDate>
+    <pubDate>2011-01-11 23:29:49</pubDate>
+    <ttl>360</ttl>
+        <item>
+        <title>Match #71352657</title>
+        <link>http://www.lolbase.net/matches/view/EU71352657</link>
+        <description>Won as Teemo in a normal game - 6 kills, 2 deaths, 6 assists - 27 minutes - 10-01-11 22:03:25</description>
+        <pubDate>2011-01-10 22:03:25</pubDate>
+    </item>
+                <item>
+        <title>Match #71367858</title>
+        <link>http://www.lolbase.net/matches/view/EU71367858</link>
+        <description>Won as Teemo in a normal game - 7 kills, 4 deaths, 2 assists - 30 minutes - 10-01-11 22:35:46</description>
+        <pubDate>2011-01-10 22:35:46</pubDate>
+    </item>
+                <item>
+        <title>Match #71617200</title>
+        <link>http://www.lolbase.net/matches/view/EU71617200</link>
+        <description>Won as Malphite in a normal game - 8 kills, 4 deaths, 11 assists - 31 minutes - 11-01-11 19:04:07</description>
+        <pubDate>2011-01-11 19:04:07</pubDate>
+    </item>
+                <item>
+        <title>Match #71639338</title>
+        <link>http://www.lolbase.net/matches/view/EU71639338</link>
+        <description>Lost as Teemo in a normal game - 7 kills, 7 deaths, 4 assists - 43 minutes - 11-01-11 19:43:04</description>
+        <pubDate>2011-01-11 19:43:04</pubDate>
+    </item>
+                <item>
+        <title>Match #71747822</title>
+        <link>http://www.lolbase.net/matches/view/EU71747822</link>
+        <description>Lost as Malphite in a normal game - 5 kills, 5 deaths, 7 assists - 50 minutes - 11-01-11 23:29:49</description>
+        <pubDate>2011-01-11 23:29:49</pubDate>
+    </item>
+            </channel>
+</rss>
