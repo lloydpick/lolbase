@@ -1,0 +1,3 @@
+module Lolbase
+  # Your code goes here...
+end
