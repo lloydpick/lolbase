@@ -1,4 +1,14 @@
-$:.unshift(File.dirname(__FILE__)) unless
-  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
+require 'fileutils'
+
+begin
+  require 'bundler'
+rescue LoadError
+  require 'rubygems'
+  require 'bundler'
+end
+Bundler.require
+
+require 'core_ext/class'
+require 'httparty/icebox'
 
 require 'lolbase/api'
