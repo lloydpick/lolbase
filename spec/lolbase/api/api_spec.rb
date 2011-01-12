@@ -4,7 +4,7 @@ describe Lolbase::API::API, "class accessors" do
   subject { Lolbase::API::API }
 
   its(:base_url)                 { should eql('lolbase.net') }
-  its(:search_url)               { should eql('search') }
+  its(:search_url)               { should eql('/search') }
 
   its(:max_connection_tries)     { should eql(10) }
   its(:cache_directory_path)     { should eql('cache/') }
@@ -24,7 +24,7 @@ describe Lolbase::API::API, "initialization" do
 
   context "with options" do
     let(:options) { {:character_name => 'USA_Person', :region => 'us', :caching => false, :cache_timeout => 1600, :debug => true} }
-    subject { Wowr::API.new(options) }
+    subject { Lolbase::API.new(options) }
 
     its(:character_name) { should eql(options[:character_name]) }
     its(:region)         { should eql(options[:region]) }
