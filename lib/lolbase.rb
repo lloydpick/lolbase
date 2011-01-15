@@ -13,3 +13,4 @@ require 'httparty/icebox'
 
 require 'lolbase/api'
 require 'lolbase/exceptions'
+require 'lolbase/classes'
