@@ -28,7 +28,7 @@ module Lolbase
 
       def base_url(options = {})
         # Non-secure only
-        str = 'http://'
+        str = 'http://www.'
         str += @@base_uri
       end
 
@@ -48,6 +48,27 @@ module Lolbase
 
         begin
           client.get(url).response.body
+        rescue Timeout::Error => e
+          raise Lolbase::Exceptions::NetworkTimeout.new('Timed out - Timeout::Error Exception')
+        rescue SocketError, Net::HTTPExceptions => e
+          raise Lolbase::Exceptions::ServerDoesNotExist.new('Specified server at ' + url + ' does not exist.')
+        end
+      end
+
+      # Given a url and a hash of query parameters, fetches a file from the site
+      def post_file(url, options = {})
+        client = LolbaseClient
+        client.base_uri(self.base_url(options))
+
+        if options[:caching]
+          client.cache :store => 'file', :timeout => @cache_timeout, :location => @@cache_directory_path
+        else
+          # Default setting
+          client.cache :store => 'memory', :timeout => 60
+        end
+
+        begin
+          client.post(url, :query => { :keyword => options[:search], :server => options[:region] }).response.body
         rescue Timeout::Error => e
           raise Lolbase::Exceptions::NetworkTimeout.new('Timed out - Timeout::Error Exception')
         rescue SocketError, Net::HTTPExceptions => e
