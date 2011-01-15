@@ -1,0 +1,326 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Jan 2011 16:57:03 GMT
+Server: Apache/2.2.14 (Ubuntu)
+X-Powered-By: PHP/5.3.2-1ubuntu4.5
+Set-Cookie: PHPSESSID=csbjvpja15k6jrcsef2c4ripe3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+<?xml version="1.0" encoding="utf-8"?>
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+		<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+		<head>
+			<title>www.lolbase.net |  limeh</title>
+			<meta http-equiv="content-language" content="en" />
+			<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+			<meta http-equiv="Content-Style-Type" content="text/css" />
+			<meta name="revisit-after" content="1 days" />
+            <meta name="robots" content="index, follow" />
+<meta name="keywords" content="League of Legends, League of Legends Statistics, Match Statistics, Talent Calculator, Masteries Calculator, Game Statistics, Player Statistics, Ranking, Mastery Calculator, Player Stats, Stats, League of Legends Stats, Match Stats, LoL Stats" />
+<meta name="description" content="A League of Legends database with match and player statistics. Search for players or matches and see the full statistics." />
+<link rel="stylesheet" href="http://www.lolbase.net/stylesheets/common.css" type="text/css" />
+<link rel="stylesheet" href="http://www.lolbase.net/stylesheets/default.css" type="text/css" />
+<script src="http://www.lolbase.net/javascripts/common.js" type="text/javascript"></script>
+<link href="http://www.lolbase.net/favicon.ico" rel="shortcut icon" type="image/x-icon" /><meta name="google-site-verification" content="0-RLJp7mfOdT774BbRtCPuO6KZCcXftpblnF7oUUNUo" /><meta name="google-site-verification" content="79ugXzOqYx6Da7ZIyJK6VscF6Z6ipV2HvxodlqRQNoI" /><link rel="apple-touch-icon" href="http://www.lolbase.net/images/other/lolbase-iphone.png" />
+		</head>
+		<body><div id="topmenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.leagueoflegends.com">
+    			US LoL    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://eu.leagueoflegends.com">
+    			EU LoL    		</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/forums/viewtopic.php?f=7&t=180">
+    			<span style="color: #5F5FFF;">Large update for LoLBase.net incoming</span>    		</a>
+    		    	</li>
+    	</ul>
+</div>
+<div id="wrapper">
+	<div id="header">
+		<div id="buttons">
+			<a href="http://www.lolbase.net/upload"><img src="http://www.lolbase.net/images/buttons/button-upload.png" alt="Upload Button" height="40" width="150" /></a>
+		</div>
+		<!-- 
+		<div id="login">
+						<form method="post" action="http://www.lolbase.net/login">
+				<table>
+					<tr>
+						<td><label>Username</label></td>
+						<td><input class="text" type="text" name="username" /></td>
+						<td><label>Password</label></td>
+						<td><input class="text" type="password" name="password" /></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="http://www.lolbase.net/register">Register</a>
+						</td>
+						<td colspan="2" class="center">
+							<label>Stay signed in</label>
+							<span><input type="checkbox" name="keepSignedIn" /></span>
+						</td>
+						<td class="right">
+							<input class="submit" type="submit" value="Login" />
+						</td>
+					</tr>
+				</table>
+			</form>
+					</div>
+		 -->
+        <div id="logo">
+			<a href="http://www.lolbase.net/"><img alt="LoLBase.net Logo" src="http://www.lolbase.net/images/layout/logo.png" width="300" height="100" /></a>
+		</div>
+		<div id="mainmenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.lolbase.net/">
+    			Home    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/downloads">
+    			Downloads    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/champions" class="active" >
+    			Database    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/signatures">
+    			Tools    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/forums">
+    			Forums    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/faq">
+    			FAQ    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/contact">
+    			Contact Us    		</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/links">
+    			Links    		</a>
+    		    	</li>
+    	</ul>
+</div>		<div id="sub-nav">
+            			<div id="search-box">
+				<script type="text/javascript">
+					function clearMe(obj) {
+						if (obj.value == obj.title) {
+							obj.value = '';
+                            obj.style.color = '#000000';
+						} else if (obj.value == '') {
+							obj.value = obj.title;
+                            obj.style.color = '#7F7F7F';
+						}
+					}
+				</script>
+				<form method="post" action="http://www.lolbase.net/search">
+                <div>
+                    <span><select id="server" name="server">
+                        <!--<option value="UN">Both</option>-->
+                        <option value="EU">EU</option>
+                        <option value="US">US</option>
+                    </select></span>
+					<span><input class="text" type="text" name="keyword" title="Type in a player name..." value="Type in a player name..." onfocus="clearMe(this)" onblur="clearMe(this)" style="color: #7F7F7F;" /></span>
+					<span><input class="submit" type="submit" value="Search" /></span>
+                </div>
+				</form>
+			</div>
+			<div id="submenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.lolbase.net/players">
+    			Players    		</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/champions">
+    			Champions    		</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/lists">
+    			Lists    		</a>
+    		    	</li>
+    	</ul>
+</div>
+		</div>
+	</div>
+	<div id="content"><div class="box-left">
+	<h1 class="style-1">Search Result for <span class="blue">limeh</span></h1>
+	<div class="cont-text">
+				<div class="float-right" style="margin-bottom: 8px;"></div>
+		<h2><span class="yellow">4</span> players were found with <span class="blue">limeh</span></h2>
+		<div class="table" style="margin-bottom: 16px;">
+			<table>
+				<thead>
+					<tr>
+						<th style="width: 16px"><img src="http://www.lolbase.net/images/icons/group.png" alt="Players" width="16" height="16" /></th>
+						<th>Player Name</th>
+						<th>Level</th>
+						<th>Wins</th>
+						<th>Losses</th>
+						<th>Leaves</th>
+						<th>Matches</th>
+						<th>Comments</th>
+						<th>Rating</th>
+						<th>Profile Updated</th>
+						<th>&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+										<tr class="row1">
+						<td>
+							<img src="http://www.lolbase.net/images/icons/server-eu-16x16.png" alt="EU Server" width="16" height="16" title="EU Server" />						</td>
+						<td><a href="http://www.lolbase.net/eu/calimehtar">ca<span class="yellow">limeh</span>tar</a></td>
+						<td>17</td>
+						<td>1/0 <span class="grey" title="The last known real win count as it is inside LoL">(51/0)</span></td>
+						<td>1/0 <span class="grey" title="The last known real losses count as it is inside LoL">(51/0)</span></td>
+						<td>0/0 <span class="grey" title="The last known real leave count as it is inside LoL">(4/0)</span></td>
+						<td><a href="http://www.lolbase.net/matches/player/EU33115">2</a></td>
+						<td>0</td>
+						<td>0</td>
+						<td>2010-08-08 09:43:04</td>
+						<td>
+<!--							<a title="Create Your Signature" href="http://www.lolbase.net/signatures/create/EUcalimehtar"><img title="Create Your Signature" src="http://www.lolbase.net/images/cog_edit.png" alt="Create Signature" width="16" height="16" /></a>-->
+													</td>
+					</tr>		
+										<tr class="row2">
+						<td>
+							<img src="http://www.lolbase.net/images/icons/server-eu-16x16.png" alt="EU Server" width="16" height="16" title="EU Server" />						</td>
+						<td><a href="http://www.lolbase.net/eu/Callimehtar">Cal<span class="yellow">limeh</span>tar</a></td>
+						<td>8</td>
+						<td>0/0 <span class="grey" title="The last known real win count as it is inside LoL">(14/0)</span></td>
+						<td>1/0 <span class="grey" title="The last known real losses count as it is inside LoL">(11/0)</span></td>
+						<td>0/0 <span class="grey" title="The last known real leave count as it is inside LoL">(2/0)</span></td>
+						<td><a href="http://www.lolbase.net/matches/player/EU20327884">1</a></td>
+						<td>0</td>
+						<td>0</td>
+						<td>2010-12-29 13:12:07</td>
+						<td>
+<!--							<a title="Create Your Signature" href="http://www.lolbase.net/signatures/create/EUCallimehtar"><img title="Create Your Signature" src="http://www.lolbase.net/images/cog_edit.png" alt="Create Signature" width="16" height="16" /></a>-->
+													</td>
+					</tr>		
+										<tr class="row1">
+						<td>
+							<img src="http://www.lolbase.net/images/icons/server-eu-16x16.png" alt="EU Server" width="16" height="16" title="EU Server" />						</td>
+						<td><a href="http://www.lolbase.net/eu/Kalimehtar">Ka<span class="yellow">limeh</span>tar</a></td>
+						<td>15</td>
+						<td>2/0 <span class="grey" title="The last known real win count as it is inside LoL">(48/0)</span></td>
+						<td>2/0 <span class="grey" title="The last known real losses count as it is inside LoL">(40/0)</span></td>
+						<td>0/0 <span class="grey" title="The last known real leave count as it is inside LoL">(3/0)</span></td>
+						<td><a href="http://www.lolbase.net/matches/player/EU19503296">4</a></td>
+						<td>0</td>
+						<td>0</td>
+						<td>2010-09-17 15:08:06</td>
+						<td>
+<!--							<a title="Create Your Signature" href="http://www.lolbase.net/signatures/create/EUKalimehtar"><img title="Create Your Signature" src="http://www.lolbase.net/images/cog_edit.png" alt="Create Signature" width="16" height="16" /></a>-->
+													</td>
+					</tr>		
+										<tr class="row2">
+						<td>
+							<img src="http://www.lolbase.net/images/icons/server-eu-16x16.png" alt="EU Server" width="16" height="16" title="EU Server" />						</td>
+						<td><a href="http://www.lolbase.net/eu/Limeh"><span class="yellow">Limeh</span></a></td>
+						<td>30</td>
+						<td>132/0 <span class="grey" title="The last known real win count as it is inside LoL">(181/0)</span></td>
+						<td>115/0 <span class="grey" title="The last known real losses count as it is inside LoL">(166/0)</span></td>
+						<td>0/0 <span class="grey" title="The last known real leave count as it is inside LoL">(0/0)</span></td>
+						<td><a href="http://www.lolbase.net/matches/player/EU19915678">247</a></td>
+						<td>0</td>
+						<td>0</td>
+						<td>2011-01-15 02:34:14</td>
+						<td>
+<!--							<a title="Create Your Signature" href="http://www.lolbase.net/signatures/create/EULimeh"><img title="Create Your Signature" src="http://www.lolbase.net/images/cog_edit.png" alt="Create Signature" width="16" height="16" /></a>-->
+													</td>
+					</tr>		
+									</tbody>
+			</table>
+		</div>
+				        <p>
+            Wins, losses and leaves are displayed as: <em>registered-normal</em> / <em>registered-ranked</em> <span class="grey">(<em>real-normal</em> / <em>real-ranked</em>)</span>
+        </p>
+        <p>
+            <span class="note">Note:</span> It will currently only find players that have been updated since the start of season 1.<br />
+            If you know the name of a player you can always access that players page directly through the URL by writing:<br />
+            <em>http://www.lolbase.net/&lt;server&gt;/&lt;summoner-name&gt;</em><br />
+            Replace <em>&lt;server&gt;</em> with either <em>EU</em> or <em>US</em> and <em>&lt;summoner-name&gt;</em> with the players (summoners) name.
+        </p>
+	</div>
+</div>
+		<div class="clear-both"></div>
+	</div>
+	<div id="footer">
+		<div id="botmenu">
+	<ul>
+		    	<li class="first">
+    		    		<a href="http://www.lolbase.net/">Home</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/downloads">Downloads</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/database">Database</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/tools">Tools</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/forums">Forum</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/faq">FAQ</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/contact">Contact Us</a>
+    		    	</li>
+        	<li>
+    		    		<a href="http://www.lolbase.net/links">Links</a>
+    		    	</li>
+        	<li class="last">
+    		    		<a href="http://www.lolbase.net/upload">Upload</a>
+    		    	</li>
+    	</ul>
+</div>
+		<div id="partners">
+<!--			<div style="text-align: left; font-size: 10px; color: #666666;"><em>Partners</em></div>-->
+			<div style="margin-bottom: 16px;">
+				<a href="http://www.3lanes.net" title="Tournament Site"><img alt="www.3lanes.net" src="http://www.lolbase.net/images/partners/3lanes-net.jpg" height="60" width="234" title="Tournament Site" /></a>
+				<a href="http://www.lol-game.ru" title="Russian Game Database and Tournaments"><img alt="www.lol-game.ru" src="http://www.lolbase.net/images/partners/lol-game-ru.jpg" height="60" width="234" title="Russian Game Database and Tournaments" /></a>
+				<a href="http://www.lol-tournament.com" title="Tournament Site"><img alt="www.lol-tournament.com" src="http://www.lolbase.net/images/partners/lol-tournament-net.jpg" height="60" width="234" title="Tournament Site" /></a>
+				<a href="http://www.roarchat.net" title="Chat Site"><img alt="www.roarchat.net" src="http://www.lolbase.net/images/partners/eality-roar-de.jpg" height="60" width="234" title="Chat Site" /></a>
+			</div>
+			<div>
+				<a href="http://leagueoflegends.wikia.com" title="League of Legends at Wikia"><img src="http://www.lolbase.net/images/partners/wikia.jpg" alt="leagueoflegends.wikia.com" height="40" width="86" /></a>
+				<a href="http://leaguecraft.pl" title="Polisd centrum League of Legends"><img src="http://www.lolbase.net/images/partners/lc-pl.jpg" alt="www.leaguecraft.pl" height="60" width="234" /></a>
+				<a href="http://www.lol-romania.com" title="Romania League of Legends Community"><img src="http://www.lolbase.net/images/partners/lol-romania-com.jpg" alt="www.lol-romania.com" height="60" width="234" /></a>
+				<a href="http://www.lol-france.fr/forum" title="French League of Legends Community"><img src="http://www.lolbase.net/images/partners/lol-france-fr.jpg" alt="www.lol-france.fr" height="60" width="234" /></a>
+				<a href="http://leagueoflegends.pl" title="Polish League of Legends Community Site"><img src="http://www.lolbase.net/images/partners/lol-pl.jpg" alt="www.leagueoflegends.pl" height="60" width="127" /></a>
+			</div>
+		</div>
+		<div id="copyright">
+			<p>&copy; 2009-2011 www.lolbase.net<br />v2.0</p>
+			<p>Images and graphics are properties of their respective owners. League of Legends © 2009 Riot Games Inc. All rights reserved.<br />
+League of Legends and Riot Games Inc. are registered trademarks of Riot Games Inc.</p>
+		</div>
+		<p>
+                            <img src="http://www.lolbase.net/images/icons/group.png" alt="Users" width="16" height="16" />
+                Users online: <span title="The amount of users who have used any of the LoLBase.net services within the last 5 minutes (updated every minute)">
+                    492                </span>
+                <span title="The same users excluding those who are viewing a signature">
+                    (78)
+                </span>
+                		</p>
+	</div>
+</div>
+
+		</body>
+		</html>

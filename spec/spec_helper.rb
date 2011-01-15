@@ -6,7 +6,7 @@ def read_fixture(path)
   File.read(File.expand_path(File.join(File.dirname(__FILE__), "fixtures", path)))
 end
 
-WEB_SAMPLES = {
+GET_SAMPLES = {
   "http://www.lolbase.net/eu/Limeh" => "profile_limeh",
   "http://www.lolbase.net/matches/player/EU19915678/all" => "match_list_limeh",
   "http://www.lolbase.net/rss/EU/Limeh" => "match_list_rss_limeh",
@@ -19,12 +19,23 @@ WEB_SAMPLES = {
   "http://www.lolbase.net/matches/view/EUr20418060" => "ranked_match_loss_dux0r"
 }
 
+POST_SAMPLES = {
+  "http://www.lolbase.net/search?keyword=Limeh&server=eu" => { :query => { :server => 'eu', :keyword => 'limeh' }, :response => "search_limeh"},
+  "http://www.lolbase.net/search?keyword=Dux0r&server=eu" => { :query => { :server => 'eu', :keyword => 'dux0r' }, :response => "search_dux0r"}
+}
+
+
 Rspec.configure do |config|
   config.mock_with :mocha
   config.before(:all) do
     FakeWeb.allow_net_connect = false
-    WEB_SAMPLES.each do |url, response|
+    
+    GET_SAMPLES.each do |url, response|
       FakeWeb.register_uri(:get, url, :response => read_fixture(response))
+    end
+
+    POST_SAMPLES.each do |url, extra|
+      FakeWeb.register_uri(:post, url, :response => read_fixture(extra[:response]))
     end
   end
 end
