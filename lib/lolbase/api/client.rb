@@ -34,6 +34,20 @@ module Lolbase
 
       protected
 
+      def parser(response, options = {})
+        doc = Nokogiri::HTML(response)
+        if (doc%'#content').nil?
+          raise Lolbase::Exceptions::EmptyPage
+        else
+          return (doc%'#content')
+        end
+      end
+
+      def get_html(url, options = {})
+        response = get_file(url, options)
+        parser(response, options)
+      end
+
       # Given a url and a hash of query parameters, fetches a file from the site
       def get_file(url, options = {})
         client = LolbaseClient
@@ -53,6 +67,11 @@ module Lolbase
         rescue SocketError, Net::HTTPExceptions => e
           raise Lolbase::Exceptions::ServerDoesNotExist.new('Specified server at ' + url + ' does not exist.')
         end
+      end
+
+      def post_html(url, options = {})
+        response = post_file(url, options)
+        parser(response, options)
       end
 
       # Given a url and a hash of query parameters, fetches a file from the site

@@ -40,20 +40,19 @@ module Lolbase
 
         options.merge!(:caching => false)
 
-        xml = get_file(@@search_url, options)
+        data = post_html(@@search_url, options)
 
         results = []
 
-#        if (xml) && (xml%'armorySearch') && (xml%'armorySearch'%'searchResults')
-#          case options[:type]
-#
-#          when 'characters'
-#            (xml%'armorySearch'%'searchResults'%'characters'/:character).each do |char|
-#              results << Wowr::Classes::SearchCharacter.new(char, self)
-#            end
-#
-#          end
-#        end
+        if (data)
+          case options[:type]
+
+          when 'characters'
+            data.xpath('//div[@class="table"]/table/tbody/tr').each do |char|
+              results << Lolbase::Classes::SearchCharacter.new(char, self)
+            end
+          end
+        end
 
         return results
       end

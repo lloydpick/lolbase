@@ -26,4 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "mocha", "~> 0.9"
 
   s.add_dependency "httparty", "0.6.1"
+  s.add_dependency "nokogiri", "1.4.4"
 end
