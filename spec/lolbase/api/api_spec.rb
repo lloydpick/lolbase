@@ -3,8 +3,8 @@ require 'spec_helper'
 describe Lolbase::API::API, "class accessors" do
   subject { Lolbase::API::API }
 
-  its(:base_url)                 { should eql('lolbase.net') }
-  its(:search_url)               { should eql('search') }
+  its(:base_uri)                 { should eql('lolbase.net') }
+  its(:search_url)               { should eql('/search') }
 
   its(:max_connection_tries)     { should eql(10) }
   its(:cache_directory_path)     { should eql('cache/') }
@@ -105,7 +105,7 @@ describe Lolbase::API::API do
 
   describe "#base_url" do
     it "should return a default when given no parameters" do
-      api.base_url.should match(Lolbase::API::API.base_url)
+      api.base_url.should match(Lolbase::API::API.base_uri)
     end
   end
 end
