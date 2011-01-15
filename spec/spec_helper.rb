@@ -20,6 +20,7 @@ WEB_SAMPLES = {
 }
 
 Rspec.configure do |config|
+  config.mock_with :mocha
   config.before(:all) do
     FakeWeb.allow_net_connect = false
     WEB_SAMPLES.each do |url, response|
