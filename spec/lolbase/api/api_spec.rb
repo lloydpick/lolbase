@@ -73,6 +73,33 @@ describe Lolbase::API::API, "attribute accessors" do
   end
 end
 
+describe Lolbase::API::API, "search" do
+  let(:api) { Lolbase::API.new(:caching => false) }
+
+  it "should raise NoSearchString when first param is blank" do
+    expect { api.search({}) }.to raise_error(Lolbase::Exceptions::NoSearchString)
+  end
+
+  it "should raise InvalidSearchType when given an invalid search type" do
+    expect { api.search('Foo', :type => 'bar') }.to raise_error(Lolbase::Exceptions::InvalidSearchType)
+  end
+
+  describe "#search_characters" do
+    it "should call #search with the correct parameters" do
+      api.expects(:search).with(:search => 'CharacterName', :type => 'characters').twice
+      api.search_characters('CharacterName')
+      api.search_characters(:search => 'CharacterName')
+    end
+
+    it "should return an array of instances of SearchCharacter" do
+      results = api.search_characters('Limeh')
+      results.should be_kind_of(Array)
+      results[0].should be_kind_of(Lolbase::Classes::SearchCharacter)
+    end
+  end
+
+end
+
 describe Lolbase::API::API do
   let(:api) { Lolbase::API.new(:caching => false) }
 

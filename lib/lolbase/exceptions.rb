@@ -31,6 +31,12 @@ module Lolbase
     class SearchError < StandardError
     end
 
+    class InvalidSearchType < SearchError
+      def initialize(string)
+        super "'#{string}' is not a valid search type."
+      end
+    end
+
     class NoSearchString < SearchError
       def initialize
         super "No search string specified or string was empty."
