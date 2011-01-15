@@ -87,7 +87,8 @@ module Lolbase
         end
 
         begin
-          client.post(url, :query => { :keyword => options[:search], :server => options[:region] }).response.body
+          client.post(url, :body => { :keyword => options[:search], :server => options[:region] },
+                           :query => { :keyword => options[:search], :server => options[:region] }).response.body
         rescue Timeout::Error => e
           raise Lolbase::Exceptions::NetworkTimeout.new('Timed out - Timeout::Error Exception')
         rescue SocketError, Net::HTTPExceptions => e
